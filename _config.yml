@@ -1,0 +1,35 @@
+title: "Adventyr Appliance Repair"
+description: "Professional appliance repair services - fast, reliable, and affordable"
+url: "https://yourusername.github.io"
+baseurl: "/AdventyrSite"
+
+# GitHub Pages settings
+remote_theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Custom CSS
+sass:
+  sass_dir: assets/css
+
+# Navigation
+header_pages:
+  - index.md
+  - services.md
+  - pricing.md
+  - about.md
+  - contact.md
+
+# SEO settings
+author: "Adventyr Appliance Repair"
+twitter_username: adventyrappliance
+github_username: yourusername
+
+# Contact info
+phone: "(555) 123-REPAIR"
+email: "info@adventyrappliance.com"
+
+# Custom styling
+minima:
+  skin: dark

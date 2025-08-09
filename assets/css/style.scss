@@ -1,0 +1,111 @@
+---
+---
+
+@import "minima";
+
+// Dark grey background with red highlights color scheme
+$dark-grey: #2c2c2c;
+$darker-grey: #1a1a1a;
+$red-highlight: #dc3545;
+$light-red: #ff6b6b;
+$white: #ffffff;
+$light-grey: #cccccc;
+
+// Override default colors
+body {
+  background-color: $dark-grey;
+  color: $white;
+}
+
+// Header styling
+.site-header {
+  background-color: $darker-grey;
+  border-bottom: 2px solid $red-highlight;
+  
+  .site-title, .site-nav .page-link {
+    color: $white !important;
+    
+    &:hover {
+      color: $light-red !important;
+    }
+  }
+}
+
+// Main content area
+.page-content {
+  background-color: $dark-grey;
+}
+
+.wrapper {
+  background-color: $dark-grey;
+}
+
+// Headings with red highlights
+h1, h2, h3, h4, h5, h6 {
+  color: $light-red;
+  border-bottom: 2px solid $red-highlight;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+// Links
+a {
+  color: $light-red;
+  
+  &:hover {
+    color: $red-highlight;
+  }
+}
+
+// Service sections
+h3 {
+  color: $red-highlight;
+  margin-top: 30px;
+}
+
+// Contact info styling
+strong {
+  color: $light-red;
+}
+
+// Checkmarks and bullet points
+li {
+  margin-bottom: 8px;
+  
+  &:before {
+    content: "→ ";
+    color: $red-highlight;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+}
+
+// Business hours and contact section
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+// Footer
+.site-footer {
+  background-color: $darker-grey;
+  border-top: 2px solid $red-highlight;
+  color: $light-grey;
+}
+
+// Responsive design
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  .wrapper {
+    padding: 10px;
+  }
+}
