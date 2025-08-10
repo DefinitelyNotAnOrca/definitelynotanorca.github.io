@@ -1,29 +1,29 @@
-<footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-content">
-      <div class="footer-section">
-        <h3>{{ site.title }}</h3>
-        <p>{{ site.description }}</p>
+<footer class="bg-adventyr-dark border-t-4 border-adventyr-orange text-adventyr-light-gray py-10 mt-12">
+  <div class="max-w-4xl mx-auto px-5">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <h3 class="text-adventyr-orange font-bold text-lg uppercase tracking-wider mb-4 pb-2 border-b-2 border-adventyr-orange">{{ site.title }}</h3>
+        <p class="leading-relaxed">{{ site.description }}</p>
       </div>
       
-      <div class="footer-section">
-        <h3>Contact Info</h3>
-        <p><strong>Phone:</strong> <span class="business-phone">{{ site.phone }}</span></p>
-        <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <div>
+        <h3 class="text-adventyr-orange font-bold text-lg uppercase tracking-wider mb-4 pb-2 border-b-2 border-adventyr-orange">Contact Info</h3>
+        <p class="mb-2"><strong class="text-white font-bold">Phone:</strong> <span class="text-adventyr-light-gray text-lg font-semibold">{{ site.phone }}</span></p>
+        <p><strong class="text-white font-bold">Email:</strong> <a href="mailto:{{ site.email }}" class="text-adventyr-orange hover:text-adventyr-orange-dark transition-colors">{{ site.email }}</a></p>
       </div>
       
-      <div class="footer-section">
-        <h3>Quick Links</h3>
-        <ul class="footer-links">
-          <li><a href="{{ '/services' | relative_url }}">Services</a></li>
-          <li><a href="{{ '/pricing' | relative_url }}">Pricing</a></li>
-          <li><a href="{{ '/about' | relative_url }}">About</a></li>
-          <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+      <div>
+        <h3 class="text-adventyr-orange font-bold text-lg uppercase tracking-wider mb-4 pb-2 border-b-2 border-adventyr-orange">Quick Links</h3>
+        <ul class="space-y-2">
+          <li class="flex items-center"><span class="text-adventyr-orange font-bold mr-2">→</span><a href="{{ '/services' | relative_url }}" class="text-adventyr-light-gray hover:text-adventyr-orange transition-colors">Services</a></li>
+          <li class="flex items-center"><span class="text-adventyr-orange font-bold mr-2">→</span><a href="{{ '/pricing' | relative_url }}" class="text-adventyr-light-gray hover:text-adventyr-orange transition-colors">Pricing</a></li>
+          <li class="flex items-center"><span class="text-adventyr-orange font-bold mr-2">→</span><a href="{{ '/about' | relative_url }}" class="text-adventyr-light-gray hover:text-adventyr-orange transition-colors">About</a></li>
+          <li class="flex items-center"><span class="text-adventyr-orange font-bold mr-2">→</span><a href="{{ '/contact' | relative_url }}" class="text-adventyr-light-gray hover:text-adventyr-orange transition-colors">Contact</a></li>
         </ul>
       </div>
     </div>
     
-    <div class="footer-bottom">
+    <div class="text-center pt-6 border-t border-gray-600 text-gray-400">
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
     </div>
   </div>

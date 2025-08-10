@@ -49,7 +49,6 @@ We accept:
 - Cash
 - Check
 - All major credit cards
-- Financing options available for major repairs
 
 ### Warranty
 

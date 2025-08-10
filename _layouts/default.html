@@ -9,19 +9,98 @@
   <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'adventyr-orange': '#e74c3c',
+            'adventyr-orange-dark': '#c0392b',
+            'adventyr-dark': '#2a2a2a',
+            'adventyr-charcoal': '#3a3a3a',
+            'adventyr-light-gray': '#cccccc',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Custom content styling to match Adventyr logo design */
+    .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+      @apply text-adventyr-orange font-bold uppercase tracking-wide border-b-2 border-adventyr-orange pb-2 mb-5 mt-8;
+    }
+    .prose h1 { 
+      @apply text-4xl text-center mb-8 mt-0; 
+    }
+    .prose h2 { 
+      @apply text-2xl; 
+    }
+    .prose h3 { 
+      @apply text-xl; 
+    }
+    .prose a { 
+      @apply text-adventyr-orange hover:text-adventyr-orange-dark transition-colors font-medium no-underline hover:underline; 
+    }
+    .prose strong { 
+      @apply text-white font-bold; 
+    }
+    .prose ul { 
+      @apply list-none pl-0 space-y-2; 
+    }
+    .prose li {
+      @apply mb-2;
+    }
+    .prose li::before { 
+      content: "⚙ "; 
+      @apply text-adventyr-orange font-bold mr-2; 
+    }
+    .prose p { 
+      @apply mb-4 leading-relaxed text-white; 
+    }
+    .prose ol {
+      @apply list-none pl-0 space-y-2;
+    }
+    .prose ol li {
+      @apply mb-2;
+    }
+    .prose ol li::before {
+      content: counter(list-item) ". ";
+      @apply text-adventyr-orange font-bold mr-2;
+    }
+    .prose blockquote {
+      @apply border-l-4 border-adventyr-orange bg-adventyr-dark p-4 italic;
+    }
+    .prose code {
+      @apply bg-adventyr-dark text-adventyr-orange px-2 py-1 rounded;
+    }
+    .prose pre {
+      @apply bg-adventyr-dark p-4 rounded overflow-x-auto;
+    }
+    .prose table {
+      @apply w-full border-collapse border border-adventyr-orange;
+    }
+    .prose th, .prose td {
+      @apply border border-adventyr-orange p-2;
+    }
+    .prose th {
+      @apply bg-adventyr-dark text-adventyr-orange font-bold;
+    }
+  </style>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   
   {% feed_meta %}
   {% seo %}
 </head>
 
-<body>
+<body class="bg-adventyr-charcoal text-white font-sans leading-relaxed min-h-screen flex flex-col">
   {% include header.html %}
   
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      {{ content }}
+  <main class="flex-1 py-8" aria-label="Content">
+    <div class="max-w-4xl mx-auto px-5">
+      <div class="prose prose-invert max-w-none">
+        {{ content }}
+      </div>
     </div>
   </main>
   
