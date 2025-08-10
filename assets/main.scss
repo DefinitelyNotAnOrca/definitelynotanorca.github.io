@@ -22,15 +22,17 @@ body {
 }
 
 .site-branding {
+  float: left;
+  height: 56px;
   display: flex;
   align-items: center;
-  float: left;
 }
 
 .site-logo {
-  max-height: 50px;
-  margin-right: 15px;
-  vertical-align: middle;
+  height: 45px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
 }
 
 .site-title {
@@ -244,47 +246,76 @@ ul {
 
 /* Mobile hamburger menu */
 @media screen and (max-width: 768px) {
+  .site-header {
+    position: relative;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 56px;
+  }
+  
+  .site-branding {
+    float: none;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: auto;
+  }
+  
+  .site-logo {
+    height: 35px;
+    max-width: 150px;
+  }
+  
+  .site-nav {
+    float: none;
+    position: relative;
+    line-height: normal;
+  }
+  
   .menu-icon {
     display: block;
-    float: right;
     width: 36px;
-    height: 26px;
-    line-height: 0;
-    padding-top: 10px;
+    height: 36px;
+    line-height: 36px;
     text-align: center;
     cursor: pointer;
+    background-color: #e74c3c;
+    border-radius: 4px;
+    margin-left: 10px;
   }
   
   .menu-icon > span {
     display: block;
     width: 18px;
-    height: 3px;
+    height: 2px;
     border-radius: 1px;
     background-color: #ffffff;
-    margin: 0 auto 3px;
+    margin: 0 auto 4px;
+    position: relative;
+    top: 12px;
     transition: all 0.3s;
   }
   
-  .menu-icon:hover span {
-    background-color: #e74c3c;
+  .menu-icon:hover {
+    background-color: #c0392b;
   }
   
-  .site-nav {
+  .nav-menu {
     position: absolute;
-    top: 100%;
+    top: 50px;
     right: 0;
     background-color: #2a2a2a;
     border: 1px solid #444;
     border-radius: 5px;
-    text-align: right;
-    width: 200px;
-  }
-  
-  .nav-menu {
-    clear: both;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     display: none;
     flex-direction: column;
-    gap: 0;
+    z-index: 1000;
   }
   
   .nav-trigger:checked ~ .nav-menu {
@@ -297,25 +328,16 @@ ul {
     margin: 0;
     border-radius: 0;
     border-bottom: 1px solid #444;
+    text-align: left;
   }
   
   .nav-menu .page-link:last-child {
     border-bottom: none;
   }
   
-  .site-branding {
-    float: none;
-    display: flex;
-    align-items: center;
-  }
-  
   .site-title {
-    font-size: 20px;
+    font-size: 18px;
     line-height: normal;
-  }
-  
-  .site-logo {
-    max-height: 40px;
   }
 }
 
@@ -334,11 +356,13 @@ ul {
     gap: 20px;
   }
   
-  .site-title {
-    font-size: 18px;
+  .site-logo {
+    height: 30px;
+    max-width: 120px;
   }
   
-  .site-logo {
-    max-height: 35px;
+  .menu-icon {
+    width: 32px;
+    height: 32px;
   }
 }
