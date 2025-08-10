@@ -26,65 +26,119 @@
     }
   </script>
   <style>
-    /* Custom content styling to match Adventyr logo design */
-    .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-      @apply text-adventyr-orange font-bold uppercase tracking-wide border-b-2 border-adventyr-orange pb-2 mb-5 mt-8;
+    /* Direct markdown content styling */
+    .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+      color: #e74c3c;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 2px solid #e74c3c;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      margin-top: 32px;
     }
-    .prose h1 { 
-      @apply text-4xl text-center mb-8 mt-0; 
+    .content h1 { 
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 32px;
+      margin-top: 0;
     }
-    .prose h2 { 
-      @apply text-2xl; 
+    .content h2 { 
+      font-size: 1.875rem;
     }
-    .prose h3 { 
-      @apply text-xl; 
+    .content h3 { 
+      font-size: 1.5rem;
     }
-    .prose a { 
-      @apply text-adventyr-orange hover:text-adventyr-orange-dark transition-colors font-medium no-underline hover:underline; 
+    .content a { 
+      color: #e74c3c;
+      font-weight: 500;
+      text-decoration: none;
+      transition: color 0.3s ease;
     }
-    .prose strong { 
-      @apply text-white font-bold; 
+    .content a:hover {
+      color: #c0392b;
+      text-decoration: underline;
     }
-    .prose ul { 
-      @apply list-none pl-0 space-y-2; 
+    .content strong { 
+      color: white;
+      font-weight: bold;
     }
-    .prose li {
-      @apply mb-2;
+    .content ul { 
+      list-style: none;
+      padding-left: 0;
+      margin: 16px 0;
     }
-    .prose li::before { 
-      content: "⚙ "; 
-      @apply text-adventyr-orange font-bold mr-2; 
+    .content li {
+      margin-bottom: 8px;
+      position: relative;
+      padding-left: 24px;
     }
-    .prose p { 
-      @apply mb-4 leading-relaxed text-white; 
+    .content li::before { 
+      content: "⚙ ";
+      color: #e74c3c;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
     }
-    .prose ol {
-      @apply list-none pl-0 space-y-2;
+    .content p { 
+      margin-bottom: 16px;
+      line-height: 1.7;
+      color: white;
     }
-    .prose ol li {
-      @apply mb-2;
+    .content ol {
+      list-style: none;
+      padding-left: 0;
+      margin: 16px 0;
+      counter-reset: list-counter;
     }
-    .prose ol li::before {
-      content: counter(list-item) ". ";
-      @apply text-adventyr-orange font-bold mr-2;
+    .content ol li {
+      counter-increment: list-counter;
+      margin-bottom: 8px;
+      position: relative;
+      padding-left: 32px;
     }
-    .prose blockquote {
-      @apply border-l-4 border-adventyr-orange bg-adventyr-dark p-4 italic;
+    .content ol li::before {
+      content: counter(list-counter) ". ";
+      color: #e74c3c;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
     }
-    .prose code {
-      @apply bg-adventyr-dark text-adventyr-orange px-2 py-1 rounded;
+    .content blockquote {
+      border-left: 4px solid #e74c3c;
+      background-color: #2a2a2a;
+      padding: 16px;
+      margin: 16px 0;
+      font-style: italic;
     }
-    .prose pre {
-      @apply bg-adventyr-dark p-4 rounded overflow-x-auto;
+    .content code {
+      background-color: #2a2a2a;
+      color: #e74c3c;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: monospace;
     }
-    .prose table {
-      @apply w-full border-collapse border border-adventyr-orange;
+    .content pre {
+      background-color: #2a2a2a;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 16px 0;
     }
-    .prose th, .prose td {
-      @apply border border-adventyr-orange p-2;
+    .content table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #e74c3c;
+      margin: 16px 0;
     }
-    .prose th {
-      @apply bg-adventyr-dark text-adventyr-orange font-bold;
+    .content th, .content td {
+      border: 1px solid #e74c3c;
+      padding: 8px;
+    }
+    .content th {
+      background-color: #2a2a2a;
+      color: #e74c3c;
+      font-weight: bold;
     }
   </style>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -98,7 +152,7 @@
   
   <main class="flex-1 py-8" aria-label="Content">
     <div class="max-w-4xl mx-auto px-5">
-      <div class="prose prose-invert max-w-none">
+      <div class="content">
         {{ content }}
       </div>
     </div>
