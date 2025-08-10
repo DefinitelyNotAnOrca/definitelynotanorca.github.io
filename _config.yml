@@ -1,7 +1,7 @@
 title: "Adventyr Appliance Repair"
 description: "Professional appliance repair services - fast, reliable, and affordable"
 url: "https://definitelynotanorca.github.io"
-baseurl: "/AdventyrSite"
+baseurl: "/"
 
 # GitHub Pages settings - using default theme
 plugins:
