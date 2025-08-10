@@ -12,7 +12,7 @@ At Adventyr, our main Priority is getting your appliances back in order, whether
 ### Service Call & Diagnostic Fee
 
 **FREE Phone consulation**
-If your machine is acting up, please give us a call. If it is possible for us to give you the advice (or simple instructions) to fix your machine, we are more than happy to give that over the phone. Also, if we can detrmine that the Service call would be a waste of your money (IE, spending $200 to fix a $300), we also will give that advice over the phone. 
+If your machine is acting up, please give us a call. If it is possible for us to give you the advice (or simple instructions) to fix your machine, we are more than happy to give that over the phone. Also, if we can detrmine that the Service call would be a waste of your money (IE, spending $200 to fix a $300 machine), we also will give that advice over the phone. 
 
 **$150 Standard Service Call**
 This is the standard service call fee for Adventyr, but this 150 dollars includes:

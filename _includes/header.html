@@ -1,16 +1,17 @@
-<header class="sticky top-0 z-50 bg-adventyr-dark border-b-4 border-adventyr-orange py-4">
-  <div class="max-w-4xl mx-auto pl-5 pr-1 flex items-center justify-between">
+<header class="sticky top-0 z-50 bg-adventyr-dark border-b-4 border-adventyr-orange py-2 sm:py-4">
+  <div class="max-w-4xl mx-auto pl-3 pr-1 sm:pl-5 flex items-center justify-between">
     <div class="flex items-center">
       <a href="{{ '/' | relative_url }}" class="block">
-        <img src="{{ '/assets/images/adventyrLogo.JPG' | relative_url }}" alt="Adventyr Logo" class="h-11 w-auto max-w-[200px] object-contain md:h-12 hover:opacity-80 transition-opacity duration-300">
+        <img src="{{ '/assets/images/adventyrLogo.JPG' | relative_url }}" alt="Adventyr Logo" class="h-8 w-auto max-w-[150px] object-contain sm:h-11 sm:max-w-[200px] md:h-12 hover:opacity-80 transition-opacity duration-300">
       </a>
     </div>
     
-    <nav class="flex items-center space-x-1 flex-wrap">
-      <a class="text-white font-semibold px-3 py-2 rounded uppercase text-xs sm:text-sm tracking-wide whitespace-nowrap" href="{{ '/services' | relative_url }}">Services</a>
-      <a class="text-white font-semibold px-3 py-2 rounded uppercase text-xs sm:text-sm tracking-wide whitespace-nowrap" href="{{ '/pricing' | relative_url }}">Pricing</a>
-      <a class="text-white font-semibold px-3 py-2 rounded uppercase text-xs sm:text-sm tracking-wide whitespace-nowrap" href="{{ '/about' | relative_url }}">About</a>
-      <a class="text-white font-semibold px-3 py-2 rounded uppercase text-xs sm:text-sm tracking-wide whitespace-nowrap" href="{{ '/contact' | relative_url }}">Contact</a>
+    <nav class="flex items-center space-x-0.5 sm:space-x-1 flex-wrap">
+      <a class="text-white font-semibold px-1.5 py-1 sm:px-3 sm:py-2 rounded uppercase text-xs tracking-wide whitespace-nowrap" href="{{ '/' | relative_url }}">Home</a>
+      <a class="text-white font-semibold px-1.5 py-1 sm:px-3 sm:py-2 rounded uppercase text-xs tracking-wide whitespace-nowrap" href="{{ '/services' | relative_url }}">Services</a>
+      <a class="text-white font-semibold px-1.5 py-1 sm:px-3 sm:py-2 rounded uppercase text-xs tracking-wide whitespace-nowrap" href="{{ '/pricing' | relative_url }}">Pricing</a>
+      <a class="text-white font-semibold px-1.5 py-1 sm:px-3 sm:py-2 rounded uppercase text-xs tracking-wide whitespace-nowrap" href="{{ '/about' | relative_url }}">About</a>
+      <a class="text-white font-semibold px-1.5 py-1 sm:px-3 sm:py-2 rounded uppercase text-xs tracking-wide whitespace-nowrap" href="{{ '/contact' | relative_url }}">Contact</a>
     </nav>
   </div>
 </header>
