@@ -5,18 +5,11 @@
     </div>
     
     <nav class="site-nav">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger">
-      <label for="nav-trigger" class="menu-icon">
-        <span></span>
-      </label>
-      
-      <div class="nav-menu">
-        <a class="page-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
-        <a class="page-link {% if page.url contains 'services' %}active{% endif %}" href="{{ '/services' | relative_url }}">Services</a>
-        <a class="page-link {% if page.url contains 'pricing' %}active{% endif %}" href="{{ '/pricing' | relative_url }}">Pricing</a>
-        <a class="page-link {% if page.url contains 'about' %}active{% endif %}" href="{{ '/about' | relative_url }}">About</a>
-        <a class="page-link {% if page.url contains 'contact' %}active{% endif %}" href="{{ '/contact' | relative_url }}">Contact</a>
-      </div>
+      <a class="page-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+      <a class="page-link {% if page.url contains 'services' %}active{% endif %}" href="{{ '/services' | relative_url }}">Services</a>
+      <a class="page-link {% if page.url contains 'pricing' %}active{% endif %}" href="{{ '/pricing' | relative_url }}">Pricing</a>
+      <a class="page-link {% if page.url contains 'about' %}active{% endif %}" href="{{ '/about' | relative_url }}">About</a>
+      <a class="page-link {% if page.url contains 'contact' %}active{% endif %}" href="{{ '/contact' | relative_url }}">Contact</a>
     </nav>
   </div>
 </header>
