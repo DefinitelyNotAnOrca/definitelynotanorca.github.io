@@ -9,9 +9,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Custom CSS
-sass:
-  sass_dir: assets/css
+# Custom CSS (now using regular CSS)
 
 # Navigation
 header_pages:
