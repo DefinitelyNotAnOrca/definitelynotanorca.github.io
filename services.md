@@ -47,22 +47,6 @@ At Adventyr Appliance Repair, we specialize in fixing all major household applia
 - Leak repairs
 - Installation services
 
-### Small Appliance Repair
-
-- Microwaves
-- Toasters & Toaster Ovens
-- Coffee Makers
-- Blenders & Food Processors
-
-### Emergency Services
-
-When your essential appliances break down unexpectedly, we're here to help with:
-
-- Same-day emergency repairs
-- 24/7 availability for urgent issues
-- Weekend and holiday service
-- Temporary solutions while parts are ordered
-
 ---
 
 **Ready to schedule a repair?** Contact us today for fast, professional service!

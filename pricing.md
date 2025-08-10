@@ -7,97 +7,62 @@ title: Pricing - Adventyr Appliance Repair
 
 ## Transparent, Fair Pricing for Quality Service
 
-At Adventyr Appliance Repair, we believe in honest, upfront pricing with no hidden fees. Our competitive rates reflect the quality service and expertise you receive.
+At Adventyr, our main Priority is getting your appliances back in order, whether that is getting a simple repair, a full rebuild of a machine, or in some cases a recommendation of a new machine.
 
 ### Service Call & Diagnostic Fee
 
-**$89 Standard Service Call**
-- Includes thorough diagnostic assessment
-- Problem identification and repair estimate
-- Applied toward repair cost if you proceed with service
-- No charge if appliance cannot be repaired
+**FREE Phone consulation**
+If your machine is acting up, please give us a call. If it is possible for us to give you the advice (or simple instructions) to fix your machine, we are more than happy to give that over the phone. Also, if we can detrmine that the Service call would be a waste of your money (IE, spending $200 to fix a $300), we also will give that advice over the phone. 
+
+**$150 Standard Service Call**
+This is the standard service call fee for Adventyr, but this 150 dollars includes:
+- Diagnosing your machine
+- Selecting Replacement Parts (That we sell to you *WITHOUT* a markup)
+- Return trips to install the parts to get the machine working
 
 ### Labor Rates
+Adventyr doesn't charge hourly rates, just the service call.
 
-**$120/hour** - Standard repair labor
-- Skilled technician service
-- All tools and basic supplies included
-- Minimum 1-hour charge
+### Common Part Pricing
 
-**Emergency Service:** Additional $50 fee
-- Evenings, weekends, and holidays
-- Same-day urgent repairs
+#### Refrigerator Parts
+- Thermostat: $30 - $100
+- Compressor: $200 - $400
+- Ice maker: $30 - $200
+- Seal replacement: $50 - $150
 
-### Common Repair Pricing
+#### Washer & Dryer Parts
+- Belt replacement: $30 - $70
+- Water pump repair: $50 - $150
+- Heating element: $40 - $200
+- Motor replacement: $100 - $300
 
-#### Refrigerator Repairs
-- Thermostat replacement: $180 - $250
-- Compressor repair: $350 - $550
-- Ice maker fix: $150 - $300
-- Seal replacement: $120 - $200
-
-#### Washer & Dryer Repairs
-- Belt replacement: $150 - $220
-- Water pump repair: $200 - $350
-- Heating element: $180 - $280
-- Motor replacement: $300 - $500
-
-#### Oven & Range Repairs
-- Heating element: $160 - $240
-- Ignition system: $200 - $320
-- Temperature sensor: $140 - $200
-- Control board: $250 - $450
+#### Oven & Range Parts
+- Heating element: $40 - $240
+- Ignition system: $100 - $320
+- Temperature sensor: $70 - $200
+- Control board: $100 - $450
 
 #### Dishwasher Repairs
-- Pump replacement: $220 - $350
-- Control panel: $180 - $300
-- Drain hose: $120 - $180
-- Spray arm: $80 - $150
+- Pump replacement: $20 - $250
+- Control panel: $35 - $250
+- Drain hose: $10 - $30
+- Spray arm: $30 - $100
 
 ### Parts & Materials
 
-- **Genuine OEM parts** at competitive prices
+- **Genuine parts** at competitive prices
 - Parts warranty included with installation
 - We source parts from authorized dealers only
-- Rush delivery available for urgent repairs
 
 ### Payment Options
 
 **We Accept:**
 - Cash and checks
 - All major credit cards (Visa, MasterCard, American Express)
-- Financing options available for repairs over $300
-
-**Payment Terms:**
-- Payment due upon completion of service
-- Financing: 0% interest for 6 months on approved credit
-- Extended payment plans available for major repairs
 
 ### Service Guarantees
 
 **Labor Warranty:** 90 days on all repair work  
 **Parts Warranty:** Manufacturer warranty applies  
 **Satisfaction Guarantee:** 100% satisfaction or we make it right
-
-### Money-Saving Tips
-
-**Maintenance Plans:**
-- Annual appliance maintenance: $149/appliance
-- Preventive care to avoid costly repairs
-- Priority scheduling for plan members
-
-**Senior & Military Discounts:**
-- 10% off labor for seniors (65+)
-- 10% off labor for active military and veterans
-- Valid ID required
-
-### Free Estimates
-
-We provide free estimates for:
-- Major appliance installations
-- Appliance replacement consultations
-- Energy efficiency upgrades
-
----
-
-**Questions about pricing?** Call us at (555) 123-REPAIR for a personalized estimate!
