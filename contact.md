@@ -11,18 +11,11 @@ Ready to get your appliances back in working order? Contact Adventyr Appliance R
 
 ### Contact Information
 
-**Phone:** (555) 123-REPAIR  
-**Email:** info@adventyrappliance.com
+**Phone:** (405) 414-6221
 
 ### Business Hours
 
-- **Monday - Friday:** 8:00 AM - 6:00 PM
-- **Saturday:** 9:00 AM - 4:00 PM  
-- **Sunday:** Emergency calls only
-
-### Emergency Service
-
-Appliance emergency? We offer 24/7 emergency repair services for urgent situations. Call our main number and follow the prompts for emergency service.
+**Monday - Friday:** 8:00 AM - 6:00 PM
 
 ### Service Request
 
@@ -35,10 +28,10 @@ When you call, please have the following information ready:
 ### Service Areas
 
 We proudly serve:
-- [Your City] and surrounding areas
-- [Neighboring City 1]
-- [Neighboring City 2]
-- [Neighboring City 3]
+- OKC and surrounding areas
+- Edmond
+- Midwest City
+- Yukon
 
 *Not sure if we service your area? Give us a call to confirm availability.*
 
